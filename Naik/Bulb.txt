@@ -1,0 +1,7 @@
+class Bulb{
+public static void main(string[] args)
+
+{
+
+}
+}

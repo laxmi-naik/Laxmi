@@ -1,0 +1,54 @@
+class WrapperRunner{
+	public static void main(String[] args){
+		System.out.println("start main in WrapperRunner ");
+		new Alien();
+		new Alien();
+		new Alien();
+		new Alien();
+		new Alien();
+		Alien alien =new Alien();
+		System.out.println("+++++++++++++");
+		new Bullet();
+		new Bullet();
+		new Bullet();
+		new Bullet();
+		new Bullet();
+		Bullet bullet =new Bullet();
+		System.out.println("+++++++++++++");
+		 new Galaxy();
+		 new Galaxy();
+		 new Galaxy();
+		 new Galaxy();
+		 new Galaxy();
+		 Galaxy galaxy =new Galaxy();
+		 System.out.println("+++++++++++++");
+		 new Spoon();
+		 new Spoon();
+		 new Spoon();
+		 new Spoon();
+		 new Spoon();
+		Spoon spoon= new Spoon();
+		System.out.println("+++++++++++++");
+		new BlackHole();
+		new BlackHole();
+		new BlackHole();
+		new BlackHole();
+		new BlackHole();
+		BlackHole blackHole = new BlackHole();
+		System.out.println("+++++++++++++");
+		new Cake();
+		new Cake();
+		new Cake();
+		new Cake();
+		new Cake();
+		Cake cake =new Cake();
+		System.out.println("+++++++++++++");
+		new Wrapper();
+		new Wrapper();
+		new Wrapper();
+		new Wrapper();
+		new Wrapper();
+		Wrapper wrapper =new Wrapper();
+		System.out.println("end  main in WrapperRunner ");
+	}
+}

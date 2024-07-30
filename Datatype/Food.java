@@ -1,7 +1,7 @@
 class Food{
-	String fName="puri";
-int fQuantity=3;
-double Fprice=120;
+	String fName;
+int fQuantity;
+double Fprice;
 
 public Food(){
 

@@ -1,7 +1,7 @@
 class Matrimony{
-	int MatrimonyId=1258;
-String biodata="name Age";
-String candidateName="laxmi";
+	int MatrimonyId;
+String biodata;
+String candidateName;
 
 public Matrimony(){
 

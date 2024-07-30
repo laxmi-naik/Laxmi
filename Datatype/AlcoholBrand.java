@@ -1,9 +1,9 @@
 class AlcoholBrand{
 	
 
-String alcoholName="kingfisher";
-int alcoholQuantity=90;
-double alcoholprice=1200;
+String alcoholName;
+int alcoholQuantity;
+double alcoholprice;
 
 public AlcoholBrand(){
 

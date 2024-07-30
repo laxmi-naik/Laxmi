@@ -7,6 +7,12 @@ class MatrimonyRunner{
 	System.out.println("MatrimonyId:"+MatrimonyId);
 	System.out.println("biodata:" +biodata);
 	System.out.println("candidateName:" +candidateName);
+	matrimony.MatrimonyId=8106;
+	matrimony.biodata="personaldetails";
+	matrimony.candidateName="Bhavya";
+	System.out.println("MatrimonyId:"+matrimony.MatrimonyId);
+	System.out.println("biodata:" +matrimony.biodata);
+	System.out.println("candidateName:" +matrimony.candidateName);
 	System.out.println("++++++++++++++");
 	Juice Juices= new Juice();
 	String juiceName=Juices.juiceName;
@@ -15,7 +21,13 @@ class MatrimonyRunner{
 	System.out.println("juiceName:"+juiceName);
 	System.out.println("juiceprice:"+price);
 	System.out.println("juiceQuantity:"+juiceQuantity);
-	
+	Juices.juiceName="mango";
+	Juices.price=50;
+	Juices.juiceQuantity=4;
+	System.out.println("juiceName:"+Juices.juiceName);
+	System.out.println("juiceprice:"+Juices.price);
+	System.out.println("juiceQuantity:"+Juices.juiceQuantity);
+	System.out.println("++++++++++++++");
 	Application applications=new Application();
 	String AppName=applications.AppName;
 	int Storage=applications.Storage;
@@ -23,6 +35,12 @@ class MatrimonyRunner{
 	System.out.println("AppName:"+AppName);
 	System.out.println("Storage:" +Storage);
 	System.out.println("info:" +info);
+	applications.AppName="hitv";
+	applications.Storage=64;
+	applications.info="films";
+	System.out.println("AppName:"+applications.AppName);
+	System.out.println("Storage:" +applications.Storage);
+	System.out.println("info:" +applications.info);
 	System.out.println("++++++++++++++");
 	Fruit fruits=new Fruit();
 	String fruitName=fruits.fruitName;
@@ -31,6 +49,12 @@ class MatrimonyRunner{
 	System.out.println("fruitName:"+fruitName);
 	System.out.println("fruitprice:"+fruitprice);
 	System.out.println("fruitquantity:"+quantity);
+	fruits.fruitName="apple";
+	fruits.fruitprice=80;
+	fruits.quantity=6;
+	System.out.println("fruitName:"+fruits.fruitName);
+	System.out.println("fruitprice:"+fruits.fruitprice);
+	System.out.println("fruitquantity:"+fruits.quantity);
 	System.out.println("++++++++++++++");
 	Place places=new Place();
 	String placeName=places.placeName;
@@ -39,6 +63,12 @@ class MatrimonyRunner{
 	System.out.println("placeName:"+placeName);
 	System.out.println("pincode:"+pincode);
 	System.out.println("history:"+history);
+	places.placeName="rajajinagar";
+	places.pincode=560010;
+	places.history="dosa";
+	System.out.println("placeName:"+places.placeName);
+	System.out.println("pincode:"+places.pincode);
+	System.out.println("history:"+places.history);
 	System.out.println("++++++++++++++");
 	Candy candy=new Candy();
 	String candyName=candy.candyName;
@@ -47,6 +77,12 @@ class MatrimonyRunner{
 	System.out.println("candyName:"+candyName);
 	System.out.println("noOfCandy:" +noOfCandy);
 	System.out.println("candyPrice:" +candyPrice);
+	candy.candyName="silk";
+	candy.noOfCandy=3;
+	candy.candyPrice=180;
+	System.out.println("candyName:"+candy.candyName);
+	System.out.println("noOfCandy:" +candy.noOfCandy);
+	System.out.println("candyPrice:" +candy.candyPrice);
 	System.out.println("++++++++++++++");
 	AlcoholBrand alcohol=new AlcoholBrand();
 	String alcoholName=alcohol.alcoholName;
@@ -55,6 +91,12 @@ class MatrimonyRunner{
 	System.out.println("alcoholName:"+alcoholName);
 	System.out.println("alcoholQuantity:" +alcoholQuantity);
 	System.out.println("alcoholprice:" +alcoholprice);
+	alcohol.alcoholName="blue brid";
+	alcohol.alcoholQuantity=120;
+	alcohol.alcoholprice=2000;
+	System.out.println("alcoholName:"+alcohol.alcoholName);
+	System.out.println("alcoholQuantity:" +alcohol.alcoholQuantity);
+	System.out.println("alcoholprice:" +alcohol.alcoholprice);
 	System.out.println("++++++++++++++");
 	 Medicines medicines=new Medicines();
 	String mName=medicines.mName;
@@ -63,6 +105,12 @@ class MatrimonyRunner{
 	System.out.println("mName:"+mName);
 	System.out.println("mQuantity:"+mQuantity);
 	System.out.println("mPrice:"+mPrice);
+	medicines.mName="dolo650";
+	medicines.mQuantity=5;
+	medicines.mPrice=50;
+	System.out.println("mName:"+medicines.mName);
+	System.out.println("mQuantity:"+medicines.mQuantity);
+	System.out.println("mPrice:"+medicines.mPrice);
 	System.out.println("++++++++++++++");
 	 Food food=new Food();
 	String fName=food.fName;
@@ -71,6 +119,12 @@ class MatrimonyRunner{
 	System.out.println("fName:"+fName);
 	System.out.println("fQuantity:"+fQuantity);
 	System.out.println("Fprice:"+Fprice);
-
+     food.fName ="dosa";
+	 food.fQuantity=3;
+	 food.Fprice=100;
+	 System.out.println("fName:"+food.fName);
+	System.out.println("fQuantity:"+food.fQuantity);
+	System.out.println("Fprice:"+food.Fprice);
+	 
 	}
 }

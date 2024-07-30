@@ -1,7 +1,7 @@
 class Application{
-	String AppName="MXplayer";
-int Storage=512;
-String info="kdrama";
+	String AppName;
+int Storage;
+String info;
 
 public Application(){
 

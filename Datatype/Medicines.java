@@ -1,8 +1,8 @@
 class Medicines{
 	
-	String mName="dolo";
-	int mQuantity=5;
-	double mPrice=30.00;
+	String mName;
+	int mQuantity;
+	double mPrice;
 	
 	public Medicines(){
 		

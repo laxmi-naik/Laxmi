@@ -1,8 +1,8 @@
 class Fruit
 {
-	String fruitName="mango";
-	float fruitprice=25;
-	int quantity=3;
+	String fruitName;
+	float fruitprice;
+	int quantity;
 	public Fruit(){
 		System.out.println("created Fruit");
 	}

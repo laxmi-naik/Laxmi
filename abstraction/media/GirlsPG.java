@@ -10,6 +10,8 @@ public void setPGRule(PGRule pgRule) {
 public void time() {
 	if(pgRule!=null) {
 		System.out.println("running time method in girlspg");
+		pgRule.costPerMonth();
+		pgRule.wifi();
 	}
 	else {
 		System.out.println("pgRule is null");

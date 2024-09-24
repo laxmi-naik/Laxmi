@@ -4,7 +4,7 @@ public class Mobile {
 	private String brand="oppo";
 	 
 	  public String getbrand() {
-		  System.out.println("running getbrand in phone");
+		  System.out.println("running getbrand in mobile");
 		  return brand;
 	  }
 	  public void setbrand(String brand) {

@@ -1,0 +1,11 @@
+FoodApp app=(String item)->{
+	System.out.println("lambad expression");
+};
+
+Ecom ecom=(String item,int quantity)->{
+	System.out.println("lambad expression");
+};
+
+OnlineShop onlineShop=(String item,int quantity,double discount)->{
+	System.out.println("lambad expression");
+};
